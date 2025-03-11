@@ -1,7 +1,7 @@
 
 <div align="center">
 	<a href="https://github.com/YanTianlong-01/DarkMode-Wallpaper-for-Mac">
-		<img src="512@2x.png" width="200" height="200">
+		<img src="DarkLight Wallpaper/Assets.xcassets/AppIcon.appiconset/512@2x.png" width="200" height="200">
 	</a>
 	<h1>DarkMode Wallpaper for Mac</h1>
 	<p>
@@ -28,7 +28,8 @@
 - Allow manual switching of the wallpaper and offer shortcut keys for the operation.
  
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/f40137d6-44e9-4dae-8233-13e0321ee9c1" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/afae79e8-edab-447b-a297-7e197eae72df" />
+
 
 
 
