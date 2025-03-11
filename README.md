@@ -12,7 +12,7 @@
 	<br>
 </div>
 
-[中文阅读](./README_zh.md)
+
 
 ## Background
 - macOS allows you to select a folder to serve as the wallpaper folder in the settings. Once the update frequency is set, the system will periodically select a random image from the folder to use as the wallpaper.
