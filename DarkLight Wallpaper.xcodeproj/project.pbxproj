@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8999983E2D05C1EA006342CB /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 8999983D2D05C1EA006342CB /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89365D0F2D05BD4B008320ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89365CF52D05BD49008320ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89365CFC2D05BD49008320ED;
+			remoteInfo = "DarkLight Wallpaper";
+		};
+		89365D192D05BD4B008320ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89365CF52D05BD49008320ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89365CFC2D05BD49008320ED;
+			remoteInfo = "DarkLight Wallpaper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89365CFD2D05BD49008320ED /* DarkLight Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkLight Wallpaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89365D0E2D05BD4B008320ED /* DarkLight WallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkLight WallpaperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89365D182D05BD4B008320ED /* DarkLight WallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkLight WallpaperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		89365CFF2D05BD49008320ED /* DarkLight Wallpaper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DarkLight Wallpaper";
+			sourceTree = "<group>";
+		};
+		89365D112D05BD4B008320ED /* DarkLight WallpaperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DarkLight WallpaperTests";
+			sourceTree = "<group>";
+		};
+		89365D1B2D05BD4B008320ED /* DarkLight WallpaperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DarkLight WallpaperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89365CFA2D05BD49008320ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8999983E2D05C1EA006342CB /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D0B2D05BD4B008320ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D152D05BD4B008320ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89365CF42D05BD49008320ED = {
+			isa = PBXGroup;
+			children = (
+				89365CFF2D05BD49008320ED /* DarkLight Wallpaper */,
+				89365D112D05BD4B008320ED /* DarkLight WallpaperTests */,
+				89365D1B2D05BD4B008320ED /* DarkLight WallpaperUITests */,
+				8999983C2D05C1EA006342CB /* Frameworks */,
+				89365CFE2D05BD49008320ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89365CFE2D05BD49008320ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89365CFD2D05BD49008320ED /* DarkLight Wallpaper.app */,
+				89365D0E2D05BD4B008320ED /* DarkLight WallpaperTests.xctest */,
+				89365D182D05BD4B008320ED /* DarkLight WallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8999983C2D05C1EA006342CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89365CFC2D05BD49008320ED /* DarkLight Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89365D222D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight Wallpaper" */;
+			buildPhases = (
+				89365CF92D05BD49008320ED /* Sources */,
+				89365CFA2D05BD49008320ED /* Frameworks */,
+				89365CFB2D05BD49008320ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				89365CFF2D05BD49008320ED /* DarkLight Wallpaper */,
+			);
+			name = "DarkLight Wallpaper";
+			packageProductDependencies = (
+				8999983D2D05C1EA006342CB /* KeyboardShortcuts */,
+			);
+			productName = "DarkLight Wallpaper";
+			productReference = 89365CFD2D05BD49008320ED /* DarkLight Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89365D0D2D05BD4B008320ED /* DarkLight WallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89365D252D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight WallpaperTests" */;
+			buildPhases = (
+				89365D0A2D05BD4B008320ED /* Sources */,
+				89365D0B2D05BD4B008320ED /* Frameworks */,
+				89365D0C2D05BD4B008320ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89365D102D05BD4B008320ED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89365D112D05BD4B008320ED /* DarkLight WallpaperTests */,
+			);
+			name = "DarkLight WallpaperTests";
+			packageProductDependencies = (
+			);
+			productName = "DarkLight WallpaperTests";
+			productReference = 89365D0E2D05BD4B008320ED /* DarkLight WallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89365D172D05BD4B008320ED /* DarkLight WallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89365D282D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight WallpaperUITests" */;
+			buildPhases = (
+				89365D142D05BD4B008320ED /* Sources */,
+				89365D152D05BD4B008320ED /* Frameworks */,
+				89365D162D05BD4B008320ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89365D1A2D05BD4B008320ED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89365D1B2D05BD4B008320ED /* DarkLight WallpaperUITests */,
+			);
+			name = "DarkLight WallpaperUITests";
+			packageProductDependencies = (
+			);
+			productName = "DarkLight WallpaperUITests";
+			productReference = 89365D182D05BD4B008320ED /* DarkLight WallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89365CF52D05BD49008320ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					89365CFC2D05BD49008320ED = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					89365D0D2D05BD4B008320ED = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 89365CFC2D05BD49008320ED;
+					};
+					89365D172D05BD4B008320ED = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 89365CFC2D05BD49008320ED;
+					};
+				};
+			};
+			buildConfigurationList = 89365CF82D05BD49008320ED /* Build configuration list for PBXProject "DarkLight Wallpaper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 89365CF42D05BD49008320ED;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8999983B2D05C1C2006342CB /* XCLocalSwiftPackageReference "../KeyboardShortcuts-main" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89365CFE2D05BD49008320ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89365CFC2D05BD49008320ED /* DarkLight Wallpaper */,
+				89365D0D2D05BD4B008320ED /* DarkLight WallpaperTests */,
+				89365D172D05BD4B008320ED /* DarkLight WallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89365CFB2D05BD49008320ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D0C2D05BD4B008320ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D162D05BD4B008320ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89365CF92D05BD49008320ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D0A2D05BD4B008320ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89365D142D05BD4B008320ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89365D102D05BD4B008320ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89365CFC2D05BD49008320ED /* DarkLight Wallpaper */;
+			targetProxy = 89365D0F2D05BD4B008320ED /* PBXContainerItemProxy */;
+		};
+		89365D1A2D05BD4B008320ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89365CFC2D05BD49008320ED /* DarkLight Wallpaper */;
+			targetProxy = 89365D192D05BD4B008320ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89365D202D05BD4B008320ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89365D212D05BD4B008320ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		89365D232D05BD4B008320ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "DarkLight Wallpaper/DarkLight_Wallpaper.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarkLight Wallpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DarkLight-Wallpaper-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DarkLight Wallpaper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This application requires apple events permissions to control system appearance.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89365D242D05BD4B008320ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "DarkLight Wallpaper/DarkLight_Wallpaper.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarkLight Wallpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DarkLight-Wallpaper-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DarkLight Wallpaper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This application requires apple events permissions to control system appearance.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		89365D262D05BD4B008320ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-WallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkLight Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkLight Wallpaper";
+			};
+			name = Debug;
+		};
+		89365D272D05BD4B008320ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-WallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkLight Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkLight Wallpaper";
+			};
+			name = Release;
+		};
+		89365D292D05BD4B008320ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-WallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DarkLight Wallpaper";
+			};
+			name = Debug;
+		};
+		89365D2A2D05BD4B008320ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tianlong-Yan.DarkLight-WallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DarkLight Wallpaper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89365CF82D05BD49008320ED /* Build configuration list for PBXProject "DarkLight Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89365D202D05BD4B008320ED /* Debug */,
+				89365D212D05BD4B008320ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89365D222D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89365D232D05BD4B008320ED /* Debug */,
+				89365D242D05BD4B008320ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89365D252D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight WallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89365D262D05BD4B008320ED /* Debug */,
+				89365D272D05BD4B008320ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89365D282D05BD4B008320ED /* Build configuration list for PBXNativeTarget "DarkLight WallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89365D292D05BD4B008320ED /* Debug */,
+				89365D2A2D05BD4B008320ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8999983B2D05C1C2006342CB /* XCLocalSwiftPackageReference "../KeyboardShortcuts-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../KeyboardShortcuts-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8999983D2D05C1EA006342CB /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8999983B2D05C1C2006342CB /* XCLocalSwiftPackageReference "../KeyboardShortcuts-main" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89365CF52D05BD49008320ED /* Project object */;
+}

@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  DarkLight Wallpaper
+
+  Created by 严天龙 on 2024/12/9.
+  
+*/
+
+// AppDelegate
+"Preference" = "偏好";
+"About" = "关于";
+"Quit" = "退出";
+
+// MainView
+"Click the App icon on the status bar to access the preference" = "在状态栏中点击应用图标进行偏好设置";
+
+// PreferenceView
+"Current Theme" = "当前主题";
+"Light Theme" = "浅色主题";
+"Dark Theme" = "深色主题";
+"Select Wallpaper Folder" = "选择壁纸文件夹";
+"Light" = "浅色";
+"Dark" = "深色";
+"Click to Select Folder" = "点击选择文件夹";
+"Update Wallpaper" = "更新壁纸";
+"Update Interval" = "更新间隔";
+"Second" = "秒";
+"Update Wallpaper Now" = "立即更新壁纸";
+"Behavior" = "行为";
+"Use the same wallpaper on all displays" = "在所有显示器上使用相同的壁纸";
+"Hide Dock Bar Icon" = "隐藏Dock栏图标";
