@@ -1,6 +1,6 @@
 
 <div align="center">
-	<a href="https://github.com/YanTianlong-01/DarkMode-Wallpaper-for-Mac">
+	<a href="https://github.com/YanTianlong-01/DarkLight-Wallpaper">
 		<img src="DarkLight Wallpaper/Assets.xcassets/AppIcon.appiconset/512@2x.png" width="200" height="200">
 	</a>
 	<h1>DarkMode Wallpaper for Mac</h1>
