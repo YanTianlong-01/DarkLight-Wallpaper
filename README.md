@@ -3,7 +3,7 @@
 	<a href="https://github.com/YanTianlong-01/DarkLight-Wallpaper">
 		<img src="DarkLight Wallpaper/Assets.xcassets/AppIcon.appiconset/512@2x.png" width="200" height="200">
 	</a>
-	<h1>DarkMode Wallpaper for Mac</h1>
+	<h1>DarkLight Wallpaper for Mac</h1>
 	<p>
 		<b>Automatically switch wallpaper folder in dark mode</b>
 	</p>
