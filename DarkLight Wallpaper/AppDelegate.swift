@@ -23,12 +23,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem?.button {
             button.image = NSImage(named: "AppIcon")
             button.image?.size = NSSize(width: 20, height: 20)
-//            if let appIcon = NSImage(named: "AppIcon") {
-//                // 创建带圆角的图像
-//                let roundedImage = appIcon.withRoundedCorners(radius: 20) // 半径根据需要调整
-//                button.image = roundedImage
-//                button.image?.size = NSSize(width: 20, height: 20) // 设置图标大小
-//            }
             button.action = #selector(togglePopover(_:))
             button.target = self
         }

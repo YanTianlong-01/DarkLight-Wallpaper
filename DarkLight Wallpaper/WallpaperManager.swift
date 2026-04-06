@@ -38,6 +38,8 @@ class WallpaperManager: ObservableObject {
             UserDefaults.standard.set(hideDockIcon, forKey: "HideDockIcon")
         }
     }
+    
+    private var appearanceObserver: NSKeyValueObservation?
 
     init() {
         UserDefaults.standard.register(defaults: [
@@ -54,7 +56,17 @@ class WallpaperManager: ObservableObject {
                 
 //        UserDefaults.standard.set(["en"], forKey: "AppleLanguages") // 测试英文样式
         // Terminal CMD:  defaults delete Tianlong-Yan.DarkLight-Wallpaper
-        
+
+        appearanceObserver = NSApp.observe(
+            \.effectiveAppearance,
+            options: [.new, .old]
+        ) { [weak self] app, change in
+            guard let self = self else { return }
+            DispatchQueue.main.async {
+                self.setRandomWallpaper(self.lightFolderPath, self.darkFolderPath)
+                self.updateTimer(interval: self.refreshInterval)
+            }
+        }
     }
 
     func saveBookmark(for folderPath: String, key: String) {

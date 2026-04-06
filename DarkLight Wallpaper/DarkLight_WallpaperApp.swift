@@ -15,8 +15,6 @@ extension KeyboardShortcuts.Name {
 @main
 struct DarkLight_WallpaperApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    @StateObject private var wallpaperManager = WallpaperManager()
-
     var body: some Scene {
         WindowGroup {
             MainView()
